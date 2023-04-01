@@ -21,7 +21,7 @@ discover_weekly_id = os.getenv('DISCOVER_ID')
 AUTH_URL = 'https://accounts.spotify.com/authorize'
 TOKEN_URL = 'https://accounts.spotify.com/api/token'
 BASE_URL = 'https://api.spotify.com/v1/'
-REDIRCT_URI = 'http://localhost:8888/callback'
+REDIRCT_URI = 'YOUR REDIRECT URI'
 PLAYLIST_URL = f"https://api.spotify.com/v1/users/{user_id}/playlists"
 DISCOVER_URL = f"http://api.spotify.com/v1/playlists/{discover_weekly_id}"
 
