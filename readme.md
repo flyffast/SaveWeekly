@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```python
 REDIRECT_URI = 'http://yoururihere'
 ``` 
-5. Fill out the .env file with the your Client ID, Client Secret details, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
+4. Fill out the .env file with the your Client ID, Client Secret details, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
 
 Example:
 
@@ -23,9 +23,9 @@ CLIENT_SECRET = yoursecret
 USER_ID = yourusername
 DISCOVER_ID = yourdiscoverplaylistid
 ```
-4. Execute main.py and open the URL genereated in your browswer.
-5. Authorize your app to access your Spotify account, this will then redirect you to your Redirect URI with a brand new url.
-6. Copy the whole url you were redirected to and paste the link into the console and hit enter, this will then create an authorization token as well as a refresh token. **Do not post your refresh token anywhere publically**
+5. Execute main.py and open the URL genereated in your browswer.
+6. Authorize your app to access your Spotify account, this will then redirect you to your Redirect URI with a brand new url.
+7. Copy the whole url you were redirected to and paste the link into the console and hit enter, this will then create an authorization token as well as a refresh token. **Do not post your refresh token anywhere publically**
 
 ```
 $python main.py
