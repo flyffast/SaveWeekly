@@ -9,7 +9,11 @@ pip install -r requirements.txt
 ### (2) Spotify API Credentials
 1. Open ```.env``` file on your local machine.
 2. Sign into your [Spotify API Dashboard](https://developer.spotify.com/dashboard) and create a new application. You must fill out the box **Redirect URI**, and you can use any uri for the redirect uri (Example: ```http://localhost:8888/callback```, this is the base uri you will be redirected to once you have authorized the application to access your account. If you see "INVALID_CLIENT: Invalid redirect URI", then you have not added or used a valid uri as your redirect uri.
-3. Fill out the .env file with the your Client ID, Client Secret details, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
+3. On line 24 on ```main.py``` please replace 'YOUR REDIRECT URI' with your URI that you used for step 2. 
+```python
+REDIRECT_URI = 'http://yoururihere'
+``` 
+5. Fill out the .env file with the your Client ID, Client Secret details, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
 
 Example:
 
