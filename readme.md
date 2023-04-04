@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```python
 REDIRECT_URI = 'http://yoururihere'
 ``` 
-4. Fill out the .env file with the your Client ID, Client Secret details, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
+4. Fill out the .env file with the your Client ID, Client Secret details both located on your [Spotify API Dashboard](https://developer.spotify.com/dashboard)'s App Settings, Username located on your [Spotify Account Overview](https://www.spotify.com/account) and your Discover Weekly Playlist ID. To locate your Discover Weekly Playlist ID, get the link to the playlist and the code will be here. ```https://open.spotify.com/playlist/youridhere?...``` Then save this file. **DO NOT SHARE THIS INFORMATION ANYHWERE PUBLICALLY**
 
 Example:
 
